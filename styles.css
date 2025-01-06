@@ -74,8 +74,8 @@ body {
 
 /* ヘッダー */
 header {
-  background-color: #FF9999;
-  color: #333;
+  background-color: #333;
+  color: #FF9999;
   padding: 1rem 0;
   text-align: center;
 }
@@ -161,5 +161,49 @@ body {
   background-repeat: no-repeat; /* 繰り返しを防ぐ */
   background-size: cover; /* 全画面にフィット */
   background-position: center; /* 中央に配置 */
+}
+
+/* 全体のリセット */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+b
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.menu li a:hover {
+  color: #ff6347;
 }
 

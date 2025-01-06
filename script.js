@@ -26,3 +26,5 @@ document.querySelector('.next').addEventListener('click', () => changeSlide(1));
 
 // 自動再生
 setInterval(() => changeSlide(1), 5000); // 5秒ごとに次のスライド
+
+
